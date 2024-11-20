@@ -22,7 +22,7 @@ class RencanaStudiViewModel : ViewModel() {
     fun saveDataKRS(ls: MutableList<String> ){
         _krsState.update { status -> status.copy(
             namaMK = ls[0],
-            kelas =[1]
+            kelas = ls[1]
         ) }
     }
 }

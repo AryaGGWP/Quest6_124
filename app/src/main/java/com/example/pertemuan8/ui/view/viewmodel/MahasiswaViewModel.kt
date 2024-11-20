@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.update
 
 class MahasiswaViewModel : ViewModel() {
     private val _dataModel = MutableStateFlow(Mahasiswa())
-    val datMode: StateFlow<Mahasiswa> =_dataModel.asStateFlow()
+    val dataModel: StateFlow<Mahasiswa> =_dataModel.asStateFlow()
 
     fun saveDataMhs(
         listData : MutableList<String>
